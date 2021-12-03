@@ -1,0 +1,33 @@
+
+.minerbox
+{
+  padding: 10px 10px;
+}
+
+.minerbox img
+{
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.minerbox h1
+{
+  font-size: 18px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.buybtn
+{
+  color: white;
+  background-color: var(--primary-color);
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+

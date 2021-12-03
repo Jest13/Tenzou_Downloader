@@ -1,0 +1,20 @@
+<div class="banner">
+  <div class="content">
+    <h1 class="mb-5">Materiel de minage crypto</h1>
+    <a routerLink="menu">Commander maintenant <i class="bi bi-arrow-right"></i></a>
+  </div>
+</div>
+
+<div class="container mt-4 mb-4">
+  <h1 class="text-center"> Stock et produits </h1>
+  <div class="row">
+    <div class="col-lg-3 mt-3" *ngFor="let mn of minerData;index as i">
+          <div class="minerbox" *ngIf="i<=3">
+            <img src="{{mn.miningImg}}" />
+            <h1>{{mn.miningName}}</h1>
+            <p>{{mn.miningPrice | currency:'EUR'}}</p>
+          </div>
+      </div>
+   </div>
+  <a routerLink="menu" class="viewmorebtn">en savoir plus <i class="bi bi-arrow-right"></i></a>
+</div>

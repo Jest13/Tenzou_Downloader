@@ -1,0 +1,21 @@
+<div class="container mt-5 mb-5 ">
+
+  <div class="row">
+
+    <div class="col-lg-4" *ngFor="let mn of minerData">
+
+      <div class="minerbox mt-3 mb-3">
+        <img src="{{mn.miningImg}}" alt="">
+        <h1>{{mn.miningName}}</h1>
+        <p>{{mn.miningDetails}}</p>
+        <p>{{mn.miningPrice | currency:'EUR'}}</p>
+        <br>
+        <a class="buybtn" [routerLink]="['/menu',mn.id]">acheter &nbsp; <i class="bi bi-bag"></i></a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
