@@ -1,0 +1,26 @@
+<div class="container mt-5 mb-5 ">
+
+  <div class="row">
+
+    <div class="col-lg-6" *ngIf="menuData">
+      <a routerLink="" class="btn btn-sm btn-dark mb-3">Retour</a>
+      <img src="{{menuData[0].miningImg}}" alt="" width="100%">
+      <h1 class="mt-3">{{menuData[0].miningName}}</h1>
+      <p>{{menuData[0].miningDetails}}</p>
+      <p>{{menuData[0].miningPrice | currency:'EUR'}}</p>
+    </div>
+
+    <div class="col-lg-6">
+      <h1>Entrez vos coordonnées </h1>
+      <form action="">
+        <input type="text" class="form-control" placeholder="Nom et prenom">
+        <input type="text" class="form-control" placeholder="numero">
+        <textarea class="form-control" placeholder="adresse"></textarea>
+        <button class="btn btn-md btn-dark mt-3">Passer la commande </button>
+
+      </form>
+    </div>
+
+  </div>
+
+</div>
