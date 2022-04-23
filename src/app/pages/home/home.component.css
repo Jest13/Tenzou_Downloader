@@ -7,9 +7,10 @@
 }
 .content
 {
-  top: 30%;
-  left: 22%;
-  position: absolute;
+  top: 20%;
+  left: 2%;
+  text-align: center;
+  position: relative;
 }
 .content h1
 {
@@ -26,6 +27,7 @@
   color: var(--primary-color);
   padding: 15px 20px;
   border-radius: 10px;
+  margin-right: 2%;
 }
 
 .content a:hover
