@@ -9,9 +9,9 @@ import {OrderDetailsService} from "../../services/order-details.service";
 export class MenuComponent implements OnInit {
 
   constructor(private service:OrderDetailsService) { }
-  minerData:any;
+  downloadData:any;
   ngOnInit(): void {
-  this.minerData = this.service.minerDetails
+  this.downloadData = this.service.DownloadDetails
   }
 
 

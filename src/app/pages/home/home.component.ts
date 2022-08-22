@@ -11,7 +11,7 @@ export class HomeComponent implements OnInit {
   constructor(private service:OrderDetailsService) { }
   minerData:any;
   ngOnInit(): void {
-    this.minerData = this.service.minerDetails;
+    this.minerData = this.service.DownloadDetails;
   }
 
 }
