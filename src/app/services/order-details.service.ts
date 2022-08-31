@@ -10,10 +10,10 @@ export class OrderDetailsService {
   DownloadDetails = [
     {
       id: 1,
-      DownloadName:"Riser 009s",
-      DownloadDetails:"avec 4 condensateurs anti-explosion, rendant l'alimentation graphique plus stable et sécurisée. Résistance stable, rend les données plus stables et sûres",
+      DownloadName:"Lubuntu",
+      DownloadDetails:"Lubuntu is a lightweight Linux distribution based on Ubuntu and uses the LXQt desktop environment in place of Ubuntu's GNOME desktop",
       DownloadLink:"10",
-      DownloadImg:"https://image.noelshack.com/fichiers/2021/45/7/1636917765-riser.png",
+      DownloadImg:"https://www.noelshack.com/2022-34-2-1661206850-start-lubuntu-installation.png",
     },
     {
       id: 2,

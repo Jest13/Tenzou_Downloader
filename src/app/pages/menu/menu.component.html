@@ -5,12 +5,13 @@
     <div class="col-lg-4" *ngFor="let mn of downloadData">
 
       <div class="minerbox mt-3 mb-3">
-        <img src="{{mn.miningImg}}" alt="">
-        <h1>{{mn.miningName}}</h1>
-        <p>{{mn.miningDetails}}</p>
-        <p>{{mn.miningPrice | currency:'EUR'}}</p>
+        <img src="{{mn.DownloadImg}}" alt="">
+        <h1>{{mn.DownloadName}}</h1>
+        <p>{{mn.DownloadLink}}</p>
+        <p>{{mn.DownloadDetails}}</p>
         <br>
-        <a class="buybtn" [routerLink]="['/menu',mn.id]">acheter &nbsp; <i class="bi bi-bag"></i></a>
+        <br>
+        <a class="buybtn" [routerLink]="['/menu',mn.id]">Details <i class="bi bi-bag"></i></a>
 
       </div>
 
