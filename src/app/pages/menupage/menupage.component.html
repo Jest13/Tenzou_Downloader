@@ -13,8 +13,9 @@
     <div class="col-lg-6">
       <h1>Distribution : {{menuData[0].DownloadName}} </h1>
       <ng-container>
-
-        <button class="btn btn-md btn-dark mt-3">Télécharger </button>
+        <div class="col-lg-4" *ngFor="let mn of downloadData">
+          <a class="btn btn-primary" href="{{mn.DownloadLink}}" role="button">Link</a>
+        </div>
 
       </ng-container>
 
