@@ -12,9 +12,10 @@
 
     <div class="col-lg-6">
       <h1>Distribution : {{menuData[0].DownloadName}} </h1>
+      <p>{{menuData[0].DownloadDetails}}</p>
       <ng-container>
-        <div class="col-lg-4" *ngFor="let mn of downloadData">
-          <a class="btn btn-primary" href="{{mn.DownloadLink}}" role="button">Link</a>
+        <div class="col-lg-4">
+          <a class="btn btn-primary" href="{{menuData[0].DownloadLink}}" role="button">quoi</a>
         </div>
 
       </ng-container>

@@ -19,7 +19,7 @@ export class OrderDetailsService {
       id: 2,
       DownloadName:"Alimentation 1800W - 2000W ",
       DownloadDetails:"Forte dissipation de la chaleur, haute efficacité et économie d'énergie, protection contre l'humidité,",
-      DownloadLink:"250",
+      DownloadLink:"https://www.jeuxvideo.com/forums/0-51-0-1-0-1-0-blabla-18-25-ans.htm",
       DownloadImg:"https://image.noelshack.com/fichiers/2021/46/4/1637222009-alimentation.png",
     },
     {
