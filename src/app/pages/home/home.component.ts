@@ -9,9 +9,9 @@ import { OrderDetailsService } from "../../services/order-details.service";
 export class HomeComponent implements OnInit {
 
   constructor(private service:OrderDetailsService) { }
-  minerData:any;
+  downloadData:any;
   ngOnInit(): void {
-    this.minerData = this.service.DownloadDetails;
+    this.downloadData = this.service.DownloadDetails;
   }
 
 }

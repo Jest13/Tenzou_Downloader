@@ -8,3 +8,6 @@
   color: var(--primary-color);
   text-decoration: underline;
 }
+.viewmorebtn{
+  position: center;
+}
